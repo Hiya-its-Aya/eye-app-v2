@@ -1,0 +1,45 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+package-lock.json
+yarn.lock
+
+# Vite
+dist/
+.env
+.env.local
+.env.*.local
+
+# Docker
+docker-compose.override.yml
+*.log
+data/
+*.pid
+*.seed
+docker/volumes/
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dependencies
+.pnp
+.pnp.js
+
+# profiling logs
+chrome-profiler-events.json
+v8-*.log
+
+# misc
+*.pem

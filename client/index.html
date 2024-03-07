@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="./library/htmx.min.js"></script>
+     <script type="module" src="/main.js"></script>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>S</title>
+  </head>
+  <body>
+    <div id="app"> 
+    <button class="result-get"
+      hx-get="http://localhost:3001/message"
+      hx-trigger="click"
+      hx-target=".result"
+    >Click for a message</button>
+    <div class="result"></div>
+<!--     
+      <input type="text" name="q"
+      hx-get="/trigger_delay"
+      hx-trigger="keyup delay:500ms changed"
+      hx-target="#search-results"
+      placeholder="Search..."
+    >
+    <div id="search-results"></div>
+    </div> -->
+    
+    
+   
+  </body>
+</html>
